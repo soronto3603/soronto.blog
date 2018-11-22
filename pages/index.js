@@ -1,7 +1,11 @@
+import Header from '../components/Header'
+import Posts from '../components/Posts/Posts'
+
 const Index = () => (
-    <div>
-      <p>Hello Next.js sotont</p>
-    </div>
-  )
+  <div>
+    <Header></Header>
+    <Posts></Posts>
+  </div>
+)
   
-  export default Index
+export default Index
